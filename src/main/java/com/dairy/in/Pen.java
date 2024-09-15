@@ -6,6 +6,11 @@ import org.springframework.stereotype.Component;
 public class Pen
 {
 	Ink ink;
+	
+
+	public Pen() {
+		System.out.println("constructor");
+	}
 
 	public Ink getInk() {
 		return ink;
